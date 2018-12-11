@@ -296,8 +296,10 @@
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../React/**",
-					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/ReactCommon/**",
+					"$(SRCROOT)/../../react-native",
+					"ReactCommon/**",
+					"React/**",
 					"$(SRCROOT)/../react-native/React/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
@@ -311,8 +313,10 @@
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../React/**",
-					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/ReactCommon/**",
+					"$(SRCROOT)/../../react-native",
+					"ReactCommon/**",
+					"React/**",
 					"$(SRCROOT)/../react-native/React/**",
 				);
 				OTHER_LDFLAGS = "-ObjC";
